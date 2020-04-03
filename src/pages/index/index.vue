@@ -4,14 +4,16 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
+		<div>你好</div>
 	</view>
+	
 </template>
 
 <script>
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello你好'
 			}
 		},
 		onLoad() {
